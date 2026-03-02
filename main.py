@@ -4,7 +4,7 @@ import mediapipe as mp
 import simpleaudio as sa
 
 # ----------------------------
-ALERT_TIME = 1  # seconds eyes must be closed to trigger alarm
+ALERT_TIME = 5  # seconds eyes must be closed to trigger alarm
 ALARM_FILE = "alarm.wav"  # put this in the same folder as the script
 # ----------------------------
 
