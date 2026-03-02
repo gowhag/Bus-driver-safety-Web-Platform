@@ -29,3 +29,23 @@ It detects whether your eyes are open or closed, shows the status on screen, and
 - Packages:
   ```bash
   python3.10 -m pip install mediapipe opencv-python simpleaudio
+
+# Driver Monitor Testbench
+
+## Description
+This project is a real-time driver drowsiness monitoring system that uses Mediapipe for eye detection and simpleaudio for alarm playback.  
+It detects whether the eyes are open or closed, displays the status on screen, and plays an alarm (`alarm.wav`) if eyes remain closed too long.
+
+This repository includes a **testbench folder** with all the necessary files to set up and run the project.
+
+---
+
+## Dependencies
+
+You need **Python 3.10 or 3.11** (Mediapipe is not yet compatible with Python 3.13).
+
+Install required Python packages:
+
+```bash
+python3.10 -m pip install --upgrade pip
+python3.10 -m pip install mediapipe opencv-python simpleaudio
