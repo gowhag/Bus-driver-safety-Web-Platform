@@ -24,6 +24,7 @@ This repository includes a **testbench folder** with all the necessary files to 
 - `main.py` — Main Python script  
 - `alarm.wav` — Audio file for alarm (must be in the same folder as the script)  
 - `README.md` — Project documentation
+- `test bench.md` — Setup instructions and testing steps for running the project (found in testbench folder)
 
 ---
 
